@@ -1,0 +1,293 @@
+h1{
+  font-family:'Russo One', sans-serif;
+  font-size: 3rem;
+  color: black;
+  font-weight: 300;
+}
+p{
+  margin: 0;
+  font-family: 'Play', sans-serif;
+  font-size: 1.5rem;
+  color: black;
+
+}
+header{
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgba(57,62,70,.43),rgba(57,62,70,.43)), url("../images/shawn-ang-nmpW_WwwVSc-unsplash.jpg") center fixed no-repeat;
+  background-size: cover;
+}
+
+header > .container{
+  position: relative;
+  height: 100%;
+}
+
+
+.text-container{
+  position: absolute;
+  top: 40%;
+}
+
+.title-header{
+  font-family:'Russo One', sans-serif;
+  font-size: 3.5rem;
+  color: white;
+  text-align: center;
+  padding-left: 3%;
+}
+.title-p{
+  margin: 0;
+  font-family: 'Play', sans-serif;
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+}
+
+
+
+
+/* NAVBAR */
+.navbar{
+  padding: 10px 0;
+}
+
+.nav-item{
+  font-weight: 600;
+  font-family: 'Play', sans-serif;
+  font-size: 1.2rem;
+  color: black;
+}
+
+.navbar-collapse{
+  margin-right: 5%;
+}
+
+.navbar-toggler{
+  margin-right: 5%;
+}
+
+.navbar .navbar-toggler-icon{
+  background-image: url('https://mdbootstrap.com/img/svg/hamburger3.svg?color=fff');
+}
+
+.nav-link{
+  color: white;
+}
+.nav-link:hover{
+  color: #393E46;
+}
+
+.navbar-collapse{
+  text-align: right;
+}
+
+/* LOGO IMG NAVBAR */
+.logo-img{
+  padding-top: 10%;
+  width: 85px;
+  padding-left: 10%;
+}
+
+
+
+
+
+/* ABOUT SECTION */
+
+#aboutus{
+  padding: 60px 0;
+}
+
+.restaurant-img{
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+}
+
+.section-heading h4{
+  text-transform: uppercase;
+  line-height: 0;
+  font-family:  'Play', sans-serif;
+  font-weight: 300;
+  letter-spacing: 1px;
+  color: #393E46;
+}
+.about-paragraph{
+  margin-bottom: 50px;
+  margin-top: -40px;
+}
+
+
+#banner{
+  position: relative;
+  background-color: #D3CFC2;
+}
+.banner-title{
+  font-size: 1.8rem;
+  font-family: 'Russo One', sans-serif;
+  color: black;
+}
+.icon-box{
+  padding: 4.5%;
+}
+.img-banner{
+  margin-bottom: 1rem;
+  width: 70px;
+  float: right;
+  padding: 3%;
+}
+.icon-desc{
+  font-size: 1.2rem;
+  font-family: 'Play', sans-serif;
+  color: black;
+}
+
+
+
+/* MENU */
+
+.menu-item-desc{
+  padding: 50px 8px;
+  margin: auto;
+}
+.menu-item-desc h6{
+  font-size: 20px;
+  text-align: center;
+
+}
+.menu-item-desc h1{
+  font-size: 30px;
+  letter-spacing: 1px;
+  font-weight: 300;
+  text-align: center;
+}
+.menu-item-desc p{
+  font-size: 0.8rem;
+  padding-bottom: 5%;
+  text-align: center;
+
+}
+.img-fluid{
+  width: 100%;
+}
+.section-heading{
+padding-top: 100px;
+padding-bottom: 30px;
+}
+.btn{
+  font-family: 'Play', sans-serif;
+}
+
+
+
+
+/* RESERVATION */
+.margin{
+  margin-top: 5%;
+}
+.parallax{
+  background: linear-gradient(rgba(57,62,70,.43),rgba(57,62,70,.43)), url("../images/charles-deluvio-nAV0ojj-m4k-unsplash.jpg") center fixed no-repeat;
+  background-size: cover;
+}
+.parallax-inner{
+  padding-top: 25%;
+  padding-bottom: 30%;
+}
+.reservation-headline{
+  text-align: center;
+  font-size: 3rem;
+  color: white;
+}
+.reservation-number{
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+  font-family: 'Play', sans-serif;
+}
+
+
+/* Footer */
+.footer{
+  background-color: #D3CFC2;
+  padding: 10% 10%;
+}
+
+.footer-header{
+  font-family: 'Russo One', sans-serif;
+  text-align: center;
+  margin: 5% 0;
+
+}
+.footer-info{
+  font-family: 'Play', sans-serif;
+  text-align: center;
+}
+.footer-icon{
+  width: 20%;
+  padding: 3%;
+}
+.icon-footer-container{
+  margin-left: 28%;
+}
+
+.contribution{
+  margin-top: 10%;
+  text-align: center;
+}
+
+
+
+
+/* Menu */
+#menu{
+  margin-bottom: 10%;
+}
+
+.menu-header{
+  font-family:'Russo One', sans-serif;
+  color: white;
+}
+.menu-p{
+  font-family: 'Play', sans-serif;
+  color: white;
+}
+.menu-header-container{
+  position: absolute;
+  top: 40%;
+  left: 20%;
+}
+.type-food h1{
+  color: black;
+}
+.dish h2{
+  color: black;
+}
+.price{
+  margin-left: 40%;
+  font-size: 1.5rem;
+}
+.food-desc{
+  font-family: 'Play', sans-serif;
+  font-size: .7rem;
+}
+.food-item{
+  margin: 2% 0;
+}
+.food-title{
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+.food-items{
+  margin-left: 5%;
+}
+.menu-heading{
+  text-transform: uppercase;
+  line-height: 0;
+  font-family:  'Play', sans-serif;
+  font-weight: 300;
+  letter-spacing: 1px;
+  color: #393E46;
+}
